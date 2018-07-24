@@ -1,0 +1,55 @@
+
+> db.customer.insert({_id: 100, name: "abcd", number: 1234567890, dob: ISODate(), gender: "M", address: {street: "panchavati", city: "pune", state: "MH"}, email: "yoyo.377"});
+WriteResult({ "nInserted" : 1 })
+
+> db.customer.find()
+{ "_id" : 100, "name" : "abcd", "number" : 1234567890, "dob" : ISODate("2018-07-24T10:57:07.906Z"), "gender" : "M", "address" : { "street" : "panchavati", "city" : "pune", "state" : "MH" }, "email" : "yoyo.377" }
+
+
+> db.booking.insert({bookstatus: true, timestamp: ISODate(), paymentsttau}); db.booking.insert({bookstatus: true, timestamp: ISODate(), paymentstatu}); ddb.booking.insert({timestamp: ISODate(), paymentstatus: true, eventid: 1000, customerid: 100, nooftickets: 3});
+WriteResult({ "nInserted" : 1 })
+> db.booking.find()
+{ "_id" : ObjectId("5b570778dad5eeaba3da28a4"), "timestamp" : ISODate("2018-07-24T11:03:20.766Z"), "paymentstatus" : true, "eventid" : 1000, "customerid" : 100, "nooftickets" : 3 }
+> 
+
+> db.event.insert({_id: 1000, name: "xyz", categoryid: 10000, venueid: 200, time: ISODate(), artist: ["abc", "cba"], language: ["hindi","english"]})
+WriteResult({ "nInserted" : 1 })
+> db.event.find()
+{ "_id" : 1000, "name" : "xyz", "categoryid" : 10000, "venueid" : 200, "time" : ISODate("2018-07-24T11:06:02.368Z"), "artist" : [ "abc", "cba" ], "language" : [ "hindi", "english" ] }
+
+> db.category.insert({_id: 10000, name: "movie", genre: "romcom"})
+WriteResult({ "nInserted" : 1 })
+> db.category.find()
+{ "_id" : 10000, "name" : "movie", "genre" : "romcom" }
+
+> db.section.insert({name: "gold", noofseats: 50, price: 400, seats: [{"location": "a1", time: ISODate(), flag: false}]})
+WriteResult({ "nInserted" : 1 })
+> db.section.find().pretty()
+{
+	"_id" : ObjectId("5b570c2fdad5eeaba3da28a8"),
+	"name" : "gold",
+	"noofseats" : 50,
+	"price" : 400,
+	"seats" : [
+		{
+			"location" : "a1",
+			"time" : ISODate("2018-07-24T11:23:27.239Z"),
+			"flag" : false
+		}
+	]
+}
+
+> db.ticket.insert({bookingid: 300, seatlocation: [{section: "gold", location: "a1"}], price: 400})
+WriteResult({ "nInserted" : 1 })
+> db.ticket.find().pretty()
+{
+	"_id" : ObjectId("5b570cf1dad5eeaba3da28a9"),
+	"bookingid" : 300,
+	"seatlocation" : [
+		{
+			"section" : "gold",
+			"location" : "a1"
+		}
+	],
+	"price" : 400
+}
