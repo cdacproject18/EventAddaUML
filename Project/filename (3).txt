@@ -1,0 +1,17 @@
+Now if we say we can not create an instance of an abstract class then why do Java adds a constructor in the abstract class. One of the reasons which make sense is  when any class extends an abstract class, the constructor of sub class will invoke the constructor of super class either implicitly or explicitly. This chaining of constructors is one of the reasons abstract class can have constructors in Java.
+No, you cannot override static method in Java because method overriding is based upon dynamic binding at runtime and static methods are bonded using static binding at compile time.
+No, We can not override private method in Java, just like we can not override static method in Java. Like static methods, private method in Java is also bonded during compile time using static binding by Type information and doesn't depends on what kind of object a particular reference variable is holding. Since method overriding works on dynamic binding, its not possible to override private method in Java. private methods are not even visible to Child class, they are only visible and accessible in the class on which they are declared. private keyword provides highest level of Encapsulation in Java.
+Prefer abstract classes if your contract has a possibility of changing over time. So if you are using an abstract class and need to add a new method to your abstract class, you can happily add that without breaking any code using that class. The same is not true for interfaces.
+
+Use abstract class if you have a default implementation of some behaviour that child classes do not have to implement
+Prefer abstract classes if your contract has a possibility of changing over time. So if you are using an abstract class and need to add a new method to your abstract class, you can happily add that without breaking any code using that class. The same is not true for interfaces.
+And these are the reasons in favour of interfaces
+
+Since multiple inheritance is not supported in C#, you cannot inherit your class from two abstract classes. An interface is your only option in such situations.
+If there is no default or common behaviour among all the classes that are inheriting from abstract class then interface may be a better choice
+
+Interfaces represent capabilities and abstract classes represent type.Implementing interfaces represents can-do relationship and inheriting from (abstract) class represents an is-a relationship
+
+Read more: http://www.java67.com/2012/08/can-we-override-private-method-in-java.html#ixzz5LUb00IhU
+
+Read more: http://www.java67.com/2012/08/can-we-override-static-method-in-java.html#ixzz5LUaqC6bn
