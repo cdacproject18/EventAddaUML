@@ -53,3 +53,25 @@ WriteResult({ "nInserted" : 1 })
 	],
 	"price" : 400
 }
+
+
+
+db.section.insert({ "_id" : "401", "name" : "silver", "noofseats" : "150", "price" : 200, "seats" : [ { "location" : "s1", "time" : ISODate("2018-07-25T15:36:41Z"), "flag" : false } ] })
+
+db.section.insert({ "_id" : "402", "name" : "platinum", "noofseats" : "150", "price" : 250, "seats" : [ { "location" : "s1", "time" : ISODate("2018-08-10T15:36:41Z"), "flag" : false }, { "location" : "s2", "time" : ISODate("2018-07-25T15:36:49Z"), "flag" : false } ] })
+
+db.section.insert({ "_id" : "400", "name" : "gold", "noofseats" : "100", "price" : 400, "seats" : [ { "location" : "a1", "time" : ISODate("2018-07-25T15:36:41Z"), "flag" : false }, { "location" : "a2", "time" : ISODate("2018-07-25T15:36:41Z"), "flag" : false } ] })
+
+// venue
+{ "_id" : "200", "name" : "Wankhede", "location" : "Mumbai", "section" : [ "400", "401", "402" ], "contact" : "9763404893" }
+{ "_id" : "203", "name" : "Hotel Taj", "location" : "Mumbai", "section" : [ "400", "401" ], "contact" : "9763404893" }
+{ "_id" : "202", "name" : "Wankhede", "location" : "Mumbai", "section" : [ "400", "401", "402" ], "contact" : "9763404893" }
+
+// event
+{ "_id" : "1003", "name" : "asdwe", "description" : "asdfs", "artist" : [ "abc", "cba" ], "categoryid" : "101", "language" : [ "hindi", "english" ], "time" : ISODate("2018-07-25T18:56:53Z"), "venueid" : "202", "image" : [ "absc", "asd" ] }
+{ "_id" : "1002", "name" : "asdwe", "description" : "asdfs", "artist" : [ "abc", "cba" ], "categoryid" : "100", "language" : [ "hindi", "english" ], "time" : ISODate("2018-07-25T18:56:53Z"), "venueid" : "203", "image" : [ "absc", "asd" ] }
+{ "_id" : "1001", "name" : "asdwe", "description" : "asdfs", "artist" : [ "abc", "cba" ], "categoryid" : "100", "language" : [ "hindi", "english" ], "time" : ISODate("2018-07-25T18:56:53Z"), "venueid" : "200", "image" : [ "absc", "asd" ] }
+
+// customer
+{ "_id" : "abc@gmail", "name" : "abc", "password" : "cba", "number" : "987654321", "dob" : ISODate("2018-07-29T05:59:17.632Z"), "gender" : "M", "address" : { "street" : "aslda", "city" : "ajsdgiw", "state" : "asdad" } }
+{ "_id" : "xyz@gmail", "name" : "abcd", "password" : "abcd", "number" : "182979", "dob" : ISODate("2016-05-17T00:00:00Z"), "gender" : "female", "address" : { "street" : "oasosd", "city" : "indo", "state" : "oajsd" } }
