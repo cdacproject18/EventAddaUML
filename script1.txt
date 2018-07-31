@@ -78,7 +78,113 @@ db.event.insert({ "_id" : "1006", "name" : "First Floor Underground Open Mic",
  "venueid" : "206", 
  "image" : [ "ET00079503.jpg" ] })
 
+db.event.insert({ "_id" : "1007", "name" : "England vs India",
+ "description" : "Aug 01, Wed - Aug 05, Sun , 1st Test",
+ "artist" : [ "England","India" ],
+ "categoryid" : "100",
+ "language" : [ "Hindi","English" ],
+ "time" : ISODate("2018-08-01T20:00:53Z"),
+ "venueid" : "207", 
+ "image" : [ "hqdefault.jpg" ] })
 
+db.event.insert({ "_id" : "1008", "name" : "England vs India",
+ "description" : "Aug 09, Thu - Aug 13, Mon , 2nd Test",
+ "artist" : [ "England","India" ],
+ "categoryid" : "100",
+ "language" : [ "Hindi","English" ],
+ "time" : ISODate("2018-08-09T20:00:53Z"),
+ "venueid" : "208", 
+ "image" : [ "hqdefault.jpg" ] })
+
+db.event.insert({ "_id" : "1009", "name" : "Sri Lanka vs South Africa",
+ "description" : "Sri Lanka vs South Africa",
+ "artist" : [ "Sri Lanka","South Africa" ],
+ "categoryid" : "100",
+ "language" : [ "English" ],
+ "time" : ISODate("2018-08-15T20:00:53Z"),
+ "venueid" : "209", 
+ "image" : [ "download(1).jpg" ] })
+
+db.event.insert({ "_id" : "1010", "name" : "Sri Lanka vs South Africa",
+ "description" : "Sri Lanka vs South Africa, 3rd ODI",
+ "artist" : [ "Sri Lanka","South Africa" ],
+ "categoryid" : "100",
+ "language" : [ "English" ],
+ "time" : ISODate("2018-08-15T20:00:53Z"),
+ "venueid" : "209", 
+ "image" : [ "download(1).jpg" ] })
+
+db.event.insert({ "_id" : "1010", "name" : "Sri Lanka vs South Africa",
+ "description" : "Sri Lanka vs South Africa, 4th ODI",
+ "artist" : [ "Sri Lanka","South Africa" ],
+ "categoryid" : "100",
+ "language" : [ "English" ],
+ "time" : ISODate("2018-08-17T20:00:53Z"),
+ "venueid" : "210", 
+ "image" : [ "download(1).jpg" ] })
+
+db.event.insert({ "_id" : "1011", "name" : "Sri Lanka vs England",
+ "description" : "Sri Lanka vs England, 1st ODI",
+ "artist" : [ "Sri Lanka","England" ],
+ "categoryid" : "100",
+ "language" : [ "English" ],
+ "time" : ISODate("2018-08-19T20:00:53Z"),
+ "venueid" : "211", 
+ "image" : [ "CP6zg1bWUAAgDLQ.png" ] })
+
+db.event.insert({ "_id" : "1012", "name" : "Sri Lanka vs England",
+ "description" : "Sri Lanka vs England, 3rd ODI",
+ "artist" : [ "Sri Lanka","England" ],
+ "categoryid" : "100",
+ "language" : [ "English" ],
+ "time" : ISODate("2018-08-21T20:00:53Z"),
+ "venueid" : "212", 
+ "image" : [ "CP6zg1bWUAAgDLQ.png" ] })
+
+db.event.insert({ "_id" : "1013", "name" : "US Open ",
+ "description" : "Rafael Nadal vs Roger Federer  Newport Casino",
+ "artist" : [ "Rafael Nadal","Roger Federer" ],
+ "categoryid" : "100",
+ "language" : [ "English" ],
+ "time" : ISODate("2018-08-27T12:00:53Z"),
+ "venueid" : "213", 
+ "image" : [ "images(1).jpg" ] })
+
+db.event.insert({ "_id" : "1014", "name" : "US Open ",
+ "description" : "Djokovic vs Murray West Side Tennis Club",
+ "artist" : [ "Djokovic","Murray" ],
+ "categoryid" : "100",
+ "language" : [ "English" ],
+ "time" : ISODate("2018-08-27T12:00:53Z"),
+ "venueid" : "214", 
+ "image" : [ "Murray-and-DjokovicMAINjpg.jpg" ] })
+
+
+
+
+Basketball Championship League
+All India Balkan-Ji-Bari: Mumbai,
+25, Juhu Road, GOI Staff Colony, Santacruz Wes, Mumbai, Maharashtra 40005, India
+Core focus training and The Sports Gurukul presents Basketball Championship League. The first-of-its-kind basketball league tournament in Mumbai.
+
+The top 8 winners will get free International training in Mumbai.
+
+
+UEFA Champions League 2018-19
+Hapoel Be'er Shev vs  Dinamo Zagreb
+TournamentUEFA Champions League 2018-19 - 2nd Qualifying Round
+StadiumYaakov Turner Toto Stadium
+Match timeTue, 31 Jul 2018, 10:30 PM (India Standard Time)
+
+Sheriff vs PM Shkendija
+TournamentUEFA Champions League 2018-19 - 2nd Qualifying Round
+StadiumBolshaya Sportivnaya Arena
+Match timeTue, 31 Jul 2018, 10:30 PM (India Standard Time)
+
+Pyuni vs PM Tobo
+TournamentEuropa League 2017-18 - 2nd Qualifying Round
+StadiumVazgen Sargsyan anvan Hanrapetakan Marzadasht
+Match timeTue, 31 Jul 2018, 9:30 PM (India Standard Time)
 
 db.venue.insert({ 
 		"_id" : "201",
@@ -125,3 +231,25 @@ db.venue.insert({
 		"section" : [ "416", "417", "418" ],
 		"contact" : "9344567843" })
 
+venueid:207
+Edgbaston, Birmingham
+
+venueid:208
+Lord's, London
+
+venueid:209 catid:100
+Pallekele International Cricket Stadium, Pallekele
+
+venueid:210 catid:100
+Pallekele International Cricket Stadium, Pallekele
+
+venueid:211 catid:100
+Rangiri Dambulla International Stadium, Dambulla
+
+venueid:212 catid:100
+Pallekele International Cricket Stadium, Pallekele
+
+aug 27 venue id:213
+rafa nadal vs roger federer  Newport Casino 
+- sep 9 venue id:214
+djokovic vs murray West Side Tennis Club
