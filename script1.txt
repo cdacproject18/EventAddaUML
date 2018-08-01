@@ -1,14 +1,14 @@
 
 db.event.insert({ "_id" : "1001", "name" : "Virsaa With SANAM Again",
- "description" : "Guess what? SANAM is back again on public demand! <br>"+
- "#VirsaaWithSanam was a Blockbuster with 5000+ crowd, at The Westin Pune (Koregaon Park) on 19th August17. The most promising fabulous four, Band SANAM, is ready to perform live and loud.<br>"+ 
- "From the past impressive performance in Pune, the public was mesmerized by their melodious songs.<br>"+
- "Make memorable experiences with your friends on this Friendship Day Eve watching SANAM live at The Westin Pune. <br>"+
- "This popular pop-rock band has taken the country by storm having over 4 Million+ Subscribers on YouTube.<br>"+ 
- "Grab your tickets now. Ready! Steady! Go! Punes Biggest Friendship day Party is here!!!<br>"+
- "A special Friendship day edition to fill the night with joy and music on the occasion of Friendship Day this year.<br>"+ 
- "The Westin ballroom converting into a pop night which starts from 9 p.m. and will continue for 6 hours with non-stop music, feeding both your mind and soul.<br>"+ 
- "The Friendship day bash specially organized will have 4 artists, who will be performing scintillating music in the ballroom with pumping beats.<br>"+
+ "description" : "Guess what? SANAM is back again on public demand! "+
+ "#VirsaaWithSanam was a Blockbuster with 5000+ crowd, at The Westin Pune (Koregaon Park) on 19th August17. The most promising fabulous four, Band SANAM, is ready to perform live and loud. "+ 
+ "From the past impressive performance in Pune, the public was mesmerized by their melodious songs. "+
+ "Make memorable experiences with your friends on this Friendship Day Eve watching SANAM live at The Westin Pune.  "+
+ "This popular pop-rock band has taken the country by storm having over 4 Million+ Subscribers on YouTube. "+ 
+ "Grab your tickets now. Ready! Steady! Go! Punes Biggest Friendship day Party is here!!! "+
+ "A special Friendship day edition to fill the night with joy and music on the occasion of Friendship Day this year. "+ 
+ "The Westin ballroom converting into a pop night which starts from 9 p.m. and will continue for 6 hours with non-stop music, feeding both your mind and soul. "+ 
+ "The Friendship day bash specially organized will have 4 artists, who will be performing scintillating music in the ballroom with pumping beats. "+
  "Get ready for the only happening plan in the town for friendship day!",
  "artist" : [ "Sanam" ],
  "categoryid" : "101",
@@ -18,19 +18,19 @@ db.event.insert({ "_id" : "1001", "name" : "Virsaa With SANAM Again",
  "image" : [ "ET00076650.jpg" ] })
 
 db.event.insert({ "_id" : "1002", "name" : "Parallel Lines",
- "description" : "Parallel Lines, a two-day festival of the finest Indian classical vocal and instrumental music is being presented by First Edition Arts in association with Shuddhanaad of Pune at the Shakuntala Jagannath Shetty Auditorium, C/o Karnataka High School, Erandwane, Pune.<br>"+
- "The festival features 4 stellar musicians and accompanying artistes from different parts of the country including Dharwad, Goa, Bhilai, Chennai and Pune.<br>"+ 
- "August 4<br>"+
- "We begin on Day one at 5 pm with the very mature and refined sitar recital by Vinayak Chittar. He will be accompanied by Parthasarathi Mukherjee on tabla.<br>"+
- "TEA Break 6.40 pm to 7pm<br>"+ 
- "7 pm to 8.30 pm: Vocal recital by Pt. Venkatesh Kumar. Bharat Kamat on tabla and Suyog Kundalkar on harmonium.<br>"+
- "8.30 pm to 8.45 pm Interval<br>"+ 
- "8.45 pm to 10 pm: Second part of Pt. Venkatesh Kumars recital.<br>"+ 
- "August 5<br>"+
- "We begin at 5 pm with a sarod recital by Abhishek Borkar. He will be accompanied by Pt. Ramdas Palsule on tabla.<br>"+
- "TEA BREAK at 6.30 pm<br>"+
- "7 pm to 9.45 pm (NO interval)<br>"+
- "A Carnatic vocal recital by the renowned Carnatic vocalist TM Krishna accompanied by Akkarai Subhalakshmi (violin), Praveen Sparsh (mridangam) and BS Purushotham (Kanjira).<br>",
+ "description" : "Parallel Lines, a two-day festival of the finest Indian classical vocal and instrumental music is being presented by First Edition Arts in association with Shuddhanaad of Pune at the Shakuntala Jagannath Shetty Auditorium, C/o Karnataka High School, Erandwane, Pune. "+
+ "The festival features 4 stellar musicians and accompanying artistes from different parts of the country including Dharwad, Goa, Bhilai, Chennai and Pune. "+ 
+ "August 4 "+
+ "We begin on Day one at 5 pm with the very mature and refined sitar recital by Vinayak Chittar. He will be accompanied by Parthasarathi Mukherjee on tabla. "+
+ "TEA Break 6.40 pm to 7pm "+ 
+ "7 pm to 8.30 pm: Vocal recital by Pt. Venkatesh Kumar. Bharat Kamat on tabla and Suyog Kundalkar on harmonium. "+
+ "8.30 pm to 8.45 pm Interval "+ 
+ "8.45 pm to 10 pm: Second part of Pt. Venkatesh Kumars recital. "+ 
+ "August 5 "+
+ "We begin at 5 pm with a sarod recital by Abhishek Borkar. He will be accompanied by Pt. Ramdas Palsule on tabla. "+
+ "TEA BREAK at 6.30 pm "+
+ "7 pm to 9.45 pm (NO interval) "+
+ "A Carnatic vocal recital by the renowned Carnatic vocalist TM Krishna accompanied by Akkarai Subhalakshmi (violin), Praveen Sparsh (mridangam) and BS Purushotham (Kanjira). ",
  "artist" : [ "Vinayak Chittar", "Pandit Venkatesh Kumar", "Abhishek Borkar", "TM Krishna" ],
  "categoryid" : "101",
  "language" : [ "hindi" ],
@@ -39,18 +39,18 @@ db.event.insert({ "_id" : "1002", "name" : "Parallel Lines",
  "image" : [ "ET00079950.jpg" ] })
 
 db.event.insert({ "_id" : "1003", "name" : "Swar Milap",
- "description" : "On the occasion of Late Girija Devi's 89th birthday, Morya Entertainment presents Swar Milap a classical event featuring Amjad Ali Khan, Shubha Mudgal and Prasant Samadar on one stage.<b>"+
- "They are performing after a long time in Pune, giving a mesmerising feel of classical and semi-classical music.<br>",
+ "description" : "On the occasion of Late Girija Devi's 89th birthday, Morya Entertainment presents Swar Milap a classical event featuring Amjad Ali Khan, Shubha Mudgal and Prasant Samadar on one stage. "+
+ "They are performing after a long time in Pune, giving a mesmerising feel of classical and semi-classical music. ",
  "artist" : [ "Ustad Amjad Ali Khan", "Shubha Mudgal", "Prasant Samadhar" ],
  "categoryid" : "101",
  "language" : [ "hindi" ],
  "time" : ISODate("2018-09-24T17:00:53Z"),
- "venueid" : "202", 
+ "venueid" : "204", 
  "image" : [ "ET00077203.jpg" ] })
 
 db.event.insert({ "_id" : "1004", "name" : "Surnburn",
- "description" : "It is Asia's largest music festival. The festival is an amalgamation of Music, Entertainment, Food and Shopping, and was ranked by CNN in 2009 as one of the Top 10 Festivals in world.<b>"+
- "The Festival is organized by Percept company owned by Shailendra Singh. Spread over 4 days, the festival has multiple stages with artists playing simultaneously.<br>",
+ "description" : "It is Asia's largest music festival. The festival is an amalgamation of Music, Entertainment, Food and Shopping, and was ranked by CNN in 2009 as one of the Top 10 Festivals in world. "+
+ "The Festival is organized by Percept company owned by Shailendra Singh. Spread over 4 days, the festival has multiple stages with artists playing simultaneously. ",
  "artist" : [ "DJ" ],
  "categoryid" : "101",
  "language" : [ "English" ],
@@ -59,18 +59,17 @@ db.event.insert({ "_id" : "1004", "name" : "Surnburn",
  "image" : [ "sunburn.jpeg" ] })
 
 db.event.insert({ "_id" : "1005", "name" : "Barkha Ritu - Musical Celebration With Maestros",
- "description" : "Barkha Ritu, an endeavor to celebrate the most awaited and cherished season of the year.<b>"+
- "Banyan Tree initiated the annual Barkha Ritu festival in the year 2002 in Mumbai, since then this festival has given music lovers across India a rich cultural experience of the monsoon ragas. Now, in its 17th year, Barkha Ritu is the only national thematic classical music festival presenting the beauty of the monsoons in a musical interpretation.<br>",
+ "description" : "Barkha Ritu, an endeavor to celebrate the most awaited and cherished season of the year. "+
+ "Banyan Tree initiated the annual Barkha Ritu festival in the year 2002 in Mumbai, since then this festival has given music lovers across India a rich cultural experience of the monsoon ragas. Now, in its 17th year, Barkha Ritu is the only national thematic classical music festival presenting the beauty of the monsoons in a musical interpretation. ",
  "artist" : [ "Ustad Rashid Khan","Rakesh Chaurasia" ],
  "categoryid" : "101",
  "language" : [ "Hindi" ],
  "time" : ISODate("2018-11-29T19:00:53Z"),
  "venueid" : "205", 
- "image" : [ "ET00079266jpg" ] })
-
+ "image" : [ "ET00079266.jpg" ] })
 
 db.event.insert({ "_id" : "1006", "name" : "First Floor Underground Open Mic",
- "description" : "First floor underground is back with back to back open mic where the funniest comedians in the city perform and test their jokes. Even you can participate and find out the hidden comedian in you.<b>",
+ "description" : "First floor underground is back with back to back open mic where the funniest comedians in the city perform and test their jokes. Even you can participate and find out the hidden comedian in you. ",
  "artist" : [ "Raju Srivastav" ],
  "categoryid" : "101",
  "language" : [ "Hindi" ],
@@ -111,10 +110,10 @@ db.event.insert({ "_id" : "1010", "name" : "Sri Lanka vs South Africa",
  "categoryid" : "100",
  "language" : [ "English" ],
  "time" : ISODate("2018-08-15T20:00:53Z"),
- "venueid" : "209", 
+ "venueid" : "215", 
  "image" : [ "download(1).jpg" ] })
 
-db.event.insert({ "_id" : "1010", "name" : "Sri Lanka vs South Africa",
+db.event.insert({ "_id" : "1015", "name" : "Sri Lanka vs South Africa",
  "description" : "Sri Lanka vs South Africa, 4th ODI",
  "artist" : [ "Sri Lanka","South Africa" ],
  "categoryid" : "100",
@@ -131,7 +130,7 @@ db.event.insert({ "_id" : "1011", "name" : "Sri Lanka vs England",
  "time" : ISODate("2018-08-19T20:00:53Z"),
  "venueid" : "211", 
  "image" : [ "CP6zg1bWUAAgDLQ.png" ] })
-
+ 
 db.event.insert({ "_id" : "1012", "name" : "Sri Lanka vs England",
  "description" : "Sri Lanka vs England, 3rd ODI",
  "artist" : [ "Sri Lanka","England" ],
@@ -189,17 +188,17 @@ Match timeTue, 31 Jul 2018, 9:30 PM (India Standard Time)
 db.venue.insert({ 
 		"_id" : "201",
 		"name" : "The Westin",
-		"location" : "36/3-B,<br/>"+
-		"Koregaon Park Annexe, Mundhawa Road, Ghorpadi,<br/>"+
+		"location" : "36/3-B,  "+
+		"Koregaon Park Annexe, Mundhawa Road, Ghorpadi, "+
 		"Pune, Maharashtra 411001, India",
 		"section" : [ "401", "402", "403" ],
 		"contact" : "9763404893" })
 
 db.venue.insert({ 
-		"_id" : "203",
+		"_id" : "202",
 		"name" : "Smt Shakuntala Jagannath Shetty Auditorium",
-		"location" : "36/3-B,<br/>"+
-		"C/O Karnatak High School, Mehendale Garage, Erandwane, Ganesh Nagar,<br/>"+
+		"location" : "36/3-B,  "+
+		"C/O Karnatak High School, Mehendale Garage, Erandwane, Ganesh Nagar,  "+
 		"Pune, Maharashtra 411001, India",
 		"section" : [ "404", "405", "406" ],
 		"contact" : "9767257274" })
@@ -207,17 +206,26 @@ db.venue.insert({
 db.venue.insert({ 
 		"_id" : "204",
 		"name" : "Oxford Golf Resort",
-		"location" : "Next to Crystal Honda Showroom,<br/>"+
-		"Mumbai-Bangalore Highway, Bavdhan,<br/>"+
+		"location" : "Next to Crystal Honda Showroom,  "+
+		"Mumbai-Bangalore Highway, Bavdhan,  "+
 		"Pune, Maharashtra 411045, India",
 		"section" : [ "410", "411", "412" ],
 		"contact" : "9344484843" })
 
 db.venue.insert({ 
+		"_id" : "203",
+		"name" : "Oxford Golf Resort",
+		"location" : "Next to Crystal Honda Showroom,  "+
+		"Mumbai-Bangalore Highway, Bavdhan,  "+
+		"Pune, Maharashtra 411045, India",
+		"section" : [ "407", "408", "409" ],
+		"contact" : "9344484843" })
+
+db.venue.insert({ 
 		"_id" : "205",
 		"name" : "Bal Gandharva Rang Mandir",
-		"location" : "Bal Gandharva Rang Mandir,<br/>"+
-		" J M Road,<br/>"+
+		"location" : "Bal Gandharva Rang Mandir,  "+
+		" J M Road,  "+
 		"Pune, Maharashtra 411045, India",
 		"section" : [ "413", "414", "415" ],
 		"contact" : "9344784843" })
@@ -225,31 +233,80 @@ db.venue.insert({
 db.venue.insert({ 
 		"_id" : "206",
 		"name" : "Hummingbird Training Infrastructure Pvt Ltd",
-		"location" : "Shop No. 105, Town Square Shopping Center,<br/>"+
-		" Mhada Colony, Viman Nagar,<br/>"+
+		"location" : "Shop No. 105, Town Square Shopping Center,  "+
+		" Mhada Colony, Viman Nagar,  "+
 		"Pune, Maharashtra 411014, India",
 		"section" : [ "416", "417", "418" ],
 		"contact" : "9344567843" })
 
-venueid:207
-Edgbaston, Birmingham
+db.venue.insert({ 
+		"_id" : "207",
+		"name" : "Edgbaston Stadium",
+		"location" : "Edgbaston, Birmingham",
+		"section" : [ "419", "420", "421" ],
+		"contact" : "9344567843" })
 
-venueid:208
-Lord's, London
+db.venue.insert({ 
+		"_id" : "208",
+		"name" : "Lords Stadium",
+		"location" : "Lord's, London",
+		"section" : [ "422", "423", "424" ],
+		"contact" : "9344567843" })
 
-venueid:209 catid:100
-Pallekele International Cricket Stadium, Pallekele
+db.venue.insert({ 
+		"_id" : "209",
+		"name" : "Pallekele International Cricket Stadium",
+		"location" : "Pallekele International Cricket Stadium, Pallekele",
+		"section" : [ "425", "426", "427" ],
+		"contact" : "9344567843" })
 
-venueid:210 catid:100
-Pallekele International Cricket Stadium, Pallekele
+db.venue.insert({ 
+		"_id" : "215",
+		"name" : "Pallekele International Cricket Stadium",
+		"location" : "Pallekele International Cricket Stadium, Pallekele",
+		"section" : [ "428", "429", "430" ],
+		"contact" : "9344567843" })
 
-venueid:211 catid:100
-Rangiri Dambulla International Stadium, Dambulla
+db.venue.insert({ 
+		"_id" : "210",
+		"name" : "Pallekele International Cricket Stadium",
+		"location" : "Pallekele International Cricket Stadium, Pallekele",
+		"section" : [ "431", "432", "433" ],
+		"contact" : "9344567843" })
 
-venueid:212 catid:100
-Pallekele International Cricket Stadium, Pallekele
+db.venue.insert({ 
+		"_id" : "211",
+		"name" : "Pallekele International Cricket Stadium",
+		"location" : "Pallekele International Cricket Stadium, Pallekele",
+		"section" : [ "434", "435", "436" ],
+		"contact" : "9344567843" })
 
-aug 27 venue id:213
-rafa nadal vs roger federer  Newport Casino 
-- sep 9 venue id:214
-djokovic vs murray West Side Tennis Club
+db.venue.insert({ 
+		"_id" : "212",
+		"name" : "Rangiri Dambulla International Stadium",
+		"location" : "Rangiri Dambulla International Stadium, Dambulla",
+		"section" : [ "437", "438", "439" ],
+		"contact" : "9344567843" })
+
+db.venue.insert({ 
+		"_id" : "213",
+		"name" : "Newport tennis stadium",
+		"location" : "Newport Casino",
+		"section" : [ "440", "441", "442" ],
+		"contact" : "9344567843" })
+
+db.venue.insert({ 
+		"_id" : "214",
+		"name" : "West Side Tennis Club",
+		"location" : "West Side Tennis Club",
+		"section" : [ "443", "444", "445" ],
+		"contact" : "9344567843" })
+
+// section
+for(var i=401, j = 1; i<=445; j++) {
+db.section.insert({ "_id" : ""+(i++), "name" : "silver"+j, "noofseats" : "150", "price" : 200, "seats" : [ { "location" : "s1", "time" : ISODate(), "flag" : false }, { "location" : "s2", "time" : ISODate(), "flag" : false }, { "location" : "s3", "time" : ISODate(), "flag" : false } ] })
+
+db.section.insert({ "_id" : ""+(i++), "name" : "platinum"+j, "noofseats" : "150", "price" : 250, "seats" : [ { "location" : "p1", "time" : ISODate(), "flag" : false }, { "location" : "p2", "time" : ISODate(), "flag" : false }, { "location" : "p3", "time" : ISODate(), "flag" : false } ] })
+
+db.section.insert({ "_id" : ""+(i++), "name" : "gold"+j, "noofseats" : "150", "price" : 300, "seats" : [ { "location" : "g1", "time" : ISODate(), "flag" : false }, { "location" : "g2", "time" : ISODate(), "flag" : false }, { "location" : "g3", "time" : ISODate(), "flag" : false } ] })
+}
